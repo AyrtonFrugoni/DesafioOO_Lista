@@ -44,7 +44,7 @@ public class TaxCalculator {
 			double abatimento = taxpayer.taxRebate();
 
 			System.out.println();
-			System.out.println("Resumo do " + (i + 1) + "o. contribuinte");
+			System.out.println("Resumo do " + (i + 1) + "o. contribuinte:");
 			System.out.printf("Imposto bruto total: %.2f\n", impostoBruto);
 			System.out.printf("Abatimento: %.2f\n", abatimento);
 			System.out.printf("Imposto devido: %.2f\n", impostoDevido);

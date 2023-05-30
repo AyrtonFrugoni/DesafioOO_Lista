@@ -84,8 +84,6 @@ public class TaxPayer {
 		return totalTax;
 	}
 
-	// DESCONTO DOS 30%:
-
 	public double taxRebate() {
 		double maxRebate = grossTax() * 0.3;
 		if ((healthSpending + educationSpending) > maxRebate) {
